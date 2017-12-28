@@ -1,0 +1,9 @@
+<FindBugsFilter>
+  <Match>
+    <!-- ignore all issues in resource generation -->
+    <Class name="~.*\.R\$.*"/>
+  </Match>
+  <Match>
+    <Class name="~.*\.Manifest\$.*"/>
+  </Match>
+</FindBugsFilter>
